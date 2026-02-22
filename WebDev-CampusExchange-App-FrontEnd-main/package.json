@@ -1,0 +1,29 @@
+{
+  "name": "campus-exchange",
+  "version": "1.0.0",
+  "description": "Campus Exchange marketplace with Express, MongoDB, and EJS views.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "ejs",
+    "campus",
+    "marketplace"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "type": "commonjs"
+}
